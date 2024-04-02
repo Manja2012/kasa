@@ -1,0 +1,33 @@
+.card{
+  
+  position: relative;
+  
+  &_item{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
+    position: absolute;
+    padding: 20px;
+    inset: 0;
+    display: flex;
+    align-items: flex-end;
+  }
+  &_image{
+    height: 340px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  &_text{
+    color: var(--main-background-color);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  &_link{
+    text-decoration: none;
+    color: inherit;
+  }
+
+}
